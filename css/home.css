@@ -1,0 +1,42 @@
+#music{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    transition:5s;
+    animation: movemusic 3s 1;
+    
+}
+
+@keyframes movemusic{
+    0%{transform: rotate(-180deg);}
+    50%{transform: translateX(-200px);}
+    100%{transform: translateX(0);}
+}
+
+@keyframes movemovie{
+    0%{transform: rotate(180deg);}
+    50%{transform: translateX(200px);}
+    100%{transform: translateX(0);}
+}
+
+#movie{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 5s;
+    position: relative;
+    animation: movemovie 3s 1;
+
+}
+
+.userchoice{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+}

@@ -1,0 +1,58 @@
+.forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(9, 36, 68);
+    width: 300px;
+    margin-left: 550px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h1{
+    color: white;
+}
+
+.otpdetail p{
+    color: rgb(160, 160, 160);
+    font-weight:600;
+    font-size: large;
+    font-family: serif;
+}
+
+.otpdetail input,button{
+    margin-bottom: 30px;
+
+}
+
+.otpdetail button{
+    width: 250px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: serif;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(61, 235, 61);
+    font-weight: 700;
+    color: white;
+}
+
+.otpdetail input{
+    width: 240px;
+    padding: 8px;
+    border: none;
+    outline-color: rgb(112, 250, 112);
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
+
