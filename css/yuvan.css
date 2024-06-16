@@ -8,19 +8,20 @@ body{
     background-color: black;
 }
 input{
-    margin-left: 500px;
-    width: 300px;
+    margin-top: 5px;
+    margin-left: 270px;
+    width: 380px;
     padding: 8px;
     border: none;
     border-radius: 20px;
     padding-left: 20px;
-    outline-color: rgb(61, 235, 61);
+    outline: none;
     font-size: 15px;
 }
 i{
     position: absolute;
-    left: 800px;
-    top: 10px;
+    left: 640px;
+    top: 15px;
     color: gray;
 
 }
@@ -40,9 +41,10 @@ i{
 .navbar a{
     padding-right: 30px;
     text-decoration: none;
-    font-size:25px ;
-    font-weight: 600;
-    font-family:serif;
+    font-size:20px ;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
     color: rgb(255, 255, 255);
 }
 
@@ -62,7 +64,8 @@ img{
     width: 300px;
     margin-left:180px;
     border-radius: 20px;
-    box-shadow: 3px 3px 10px 3px rgb(255, 255, 255);
+    border: 2px solid white;
+    /* box-shadow: 0 0 10px 0 rgb(255, 255, 255); */
 }
 
 .yuvan-bio{

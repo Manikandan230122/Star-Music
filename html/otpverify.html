@@ -11,11 +11,12 @@
         <h1>OTP Verification</h1>
         <div class="otpverify">
             <p>Enter the OTP</p>
-            <input type="number" placeholder="OTP Verify"><br>
-            <button>Verify</button><br>
-            <button>Resend OTP</button><br>
+            <input type="number" placeholder="OTP Verify" id="verify"><br>
+            <button type="submit" onclick="verifyOTP()">Verify</button><br>
+           <a href="/html/forgot.html"> <button>Resend OTP</button></a><br>
             <a href="/html/login.html"><button>Cancel</button></a>
         </div>
     </div>
+    <script src="../javascript/otpverify.js"></script>
 </body>
 </html>

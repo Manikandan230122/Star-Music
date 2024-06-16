@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/signup.css">
+    
 </head>
 <body>
     <div class="container">
         <h1>Sign-in</h1>
         <div class="userdetails">
-            <input type="text" placeholder="Firstname"><br>
-            <input type="text" placeholder="Lastname"><br>
-            <input type="number" placeholder="Phonenumber"><br>
-            <input type="text" placeholder="Email"><br>
-            <input type="text" placeholder="Password"><br>
-            <input type="text" placeholder="Confirm Password"><br>
-        </div>
+            <input type="text" placeholder="Username" id="Username">
+            <!-- <p></p> -->
+            <input type="number" placeholder="Phonenumber" id="PhoneNumber">  
+            <!-- <p id="error"></p> -->
+            <input type="text" placeholder="Email" id="EmailId">
+            <!-- <p></p> -->
+            <input type="text" placeholder="Password" id="NewPassword">
+                                                        
+            <!-- <p></p> -->
+            <input type="text" placeholder="Confirm Password" id="ConfirmPassword">
+            <!-- <p></p> -->
+    </div>
         <div class="buttons">
-            <button>Signup</button><br>
+            <button onclick="SignUpValidation()">Signup</button><br>
             <a href="/html/login.html"><button>Cancel</button></a>
         </div>
     </div>
+    <script src="../javascript/signup.js"></script>
 </body>
 </html>

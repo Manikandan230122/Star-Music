@@ -1,7 +1,8 @@
 #music{
     height: 150px;
     width: 200px;
-    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(247, 117, 160);
+    border-radius: 5px;
     transition:5s;
     animation: movemusic 3s 1;
     
@@ -22,7 +23,8 @@
 #movie{
     height: 150px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgb(173, 115, 228);
     transition: 5s;
     position: relative;
     animation: movemovie 3s 1;
@@ -39,4 +41,8 @@
 
 body{
     background-color: black;
+    background-image: url(/imajes/baground3.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
 }

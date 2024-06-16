@@ -1,12 +1,22 @@
+
+body{
+    background-image: url(/imajes/7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .forgot{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    background-color: rgb(9, 36, 68);
+    /* background-color: rgb(9, 36, 68); */
+    background-color: rgba(38, 141, 55, 0.144);
     width: 300px;
-    margin-left: 550px;
     border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -39,7 +49,7 @@ h1{
     border: none;
     outline: none;
     border-radius: 15px;
-    background-color: rgb(61, 235, 61);
+    background-color:rgb(28, 117, 28);
     font-weight: 700;
     color: white;
 }
@@ -48,7 +58,7 @@ h1{
     width: 240px;
     padding: 8px;
     border: none;
-    outline-color: rgb(112, 250, 112);
+    outline: none;
     font-size: 15px;
     border-radius: 5px;
     background-color: black;

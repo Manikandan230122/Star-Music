@@ -1,12 +1,23 @@
+
+body{
+    background-image: url(/imajes/7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    background-color: rgb(9, 36, 68);
+    /* background-color: rgb(9, 36, 68); */
     width: 300px;
-    margin-left: 750px;
+    background-color: rgba(38, 141, 55, 0.144);
     border-radius: 20px;
 }
 
@@ -14,17 +25,17 @@ h1{
     color: white;
 }
  h3{
-    color: rgb(163, 160, 160);
+    color: rgb(255, 255, 255);
  }
 
 
  .logintop input{
     border: none;
-    outline-color: rgb(112, 250, 112);
+    outline: none;
     padding: 10px;
     background-color: black;
     margin-top:px;
-    color: gray;
+    color: rgb(255, 255, 255);
     font-family:serif;
     font-size:17px;
     border-radius: 5px;
@@ -36,12 +47,13 @@ h1{
     font-weight: 500;
     text-decoration: none;
  }
+ 
 button{
     width: 250px;
     padding: 5px;
     font-size: 20px;
     font-family: serif;
-    background-color:rgb(61, 235, 61);
+    background-color:rgb(28, 117, 28);
     border: none;
     outline: none;
     border-radius: 15px;

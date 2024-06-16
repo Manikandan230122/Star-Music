@@ -1,21 +1,27 @@
 *{
     margin: 0;
-    padding: o;
+    padding:0;
     box-sizing: border-box; 
     font-family: sans-serif;
 }
 body{
     background-color: rgb(0, 0, 0);
+    background-image: url(/imajes/7.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+   
 }
 
 .slide{
-    height: 40%;
+    height: 100%;
     width: 180px;
     position: absolute;
-    background-color:#524f4f60;
+    background-color:#5554544b;
     transition: 0.5s ease;
     border-radius: 5px;
     transform: translateX(-180px);
+    margin-top: -18px;
     
 
 }
@@ -38,10 +44,11 @@ ul li{
 ul li a{
     text-decoration: none;
     color: rgb(255, 253, 253);
-    padding: 5px 0;
     display: block;
     transition: 0.2s ease-out;
     font-weight: 500;
+    padding:  5px 40px;
+    
     
 }
  ul li:hover a{
@@ -50,12 +57,13 @@ ul li a{
     
  }
 
-input{
-    display: none;
-    visibility:hidden;
+ input{
+    /* display: none; */
+     /* visibility:hidden; */
     -webkit-appearance: none;
+    
 }
- .toggle{
+.toggle{
     position: absolute;
     height: 25px;
     width: 25px;
@@ -64,7 +72,7 @@ input{
     z-index:1;
     cursor: pointer;
     border-radius: 2px;
-    background-color: #413e3e49;
+    background-color: #00000000;
     box-shadow: 0 0 10px rgba(0, 0,0,0.3);
  }
  .toggle .common{
@@ -118,3 +126,167 @@ input{
  input:checked ~ .slide{
     transform: translateX(0);
  }
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(59, 155, 30);
+   height: 44px;
+   margin-top: -20px;
+}
+ 
+#search{
+   border: none;
+   width: 350px;
+   margin-left: 250px;
+   padding: 8px;
+   font-size: 15px;
+   border-radius: 20px;
+   padding-left: 20px;
+   margin-top: 5px;
+   outline: none;
+   
+}
+i{
+   position: absolute;
+   top: 13px;
+   left: 550px;
+   color: gray;
+
+}
+
+.nav-list{
+   padding-top: 10px;
+   padding-right: 20px;
+}
+
+.nav-list a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  padding-right: 15px;
+  
+}
+
+.nav-list a:hover{
+   color: black;
+}
+/* slide */
+
+.slider{
+   height: 400px;
+   width: 70%;
+   overflow: hidden;
+}
+
+.slide1 img{
+   height: 500px;
+   width: 100%;
+}
+figure{
+   left: 0;
+   width: 400%;
+   animation: 15s slide1 infinite;
+   position: relative;
+}
+.slide1{
+   width: 25%;
+   float: left;
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+@keyframes slide1{
+   0%{
+      left: 0;
+   }
+   10%{
+      left: 0;
+   }
+   20%{
+      left: -100%;
+   }
+   30%{
+      left: -100%;
+   }
+   40%{
+      left: -200%;
+   }
+   50%{
+      left: -200%;
+   }
+   55%{
+      left: -300%;
+   }
+   65%{
+      left: -300%;
+   }
+   66%{
+      left: -200%;
+   }
+   74%{
+      left: -200%;
+   }
+   75%{
+      left: -100%;
+   }
+   85%{
+      left: -100%;
+   }
+   90%{
+      left:0;
+   }
+   100%{
+      left:0;
+   }
+}
+.auto-slide{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.love-movies{
+   display: flex;
+   flex-direction: column;
+   /* margin-left: 30px; */
+   padding-bottom: 20px;
+}
+
+.love-movies h2{
+   margin-bottom: 20px;
+   margin-left: 50px;
+   font-family: serif;
+   font-style: italic;
+}
+
+.love-movies img{
+   height:250px;
+   width:210px;
+   margin-left:55px;
+   border-radius: 10px;
+   border: 2px solid white;
+}
+.l-image a{
+   text-decoration: none;
+   color: white;
+   transition: transform .4s;
+   font-size: 18px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.l-image{
+   display: flex;
+   text-align: center;
+}
+
+.l-image a:hover{
+   -ms-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
