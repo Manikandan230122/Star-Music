@@ -12,16 +12,13 @@ body{
 .forgot{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    /* background-color: rgb(9, 36, 68); */
     background-color: rgba(38, 141, 55, 0.144);
     width: 300px;
+    height: 350px;
     border-radius: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+     border: 1px solid rgb(85, 81, 81);
 
 }
 
@@ -29,20 +26,16 @@ h1{
     color: white;
 }
 
-.otpdetail p{
-    color: rgb(160, 160, 160);
-    font-weight:600;
-    font-size: large;
-    font-family: serif;
-}
-
-.otpdetail input,button{
-    margin-bottom: 30px;
+.otpdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .otpdetail button{
-    width: 250px;
+    width: 200px;
     padding: 8px;
     font-size: 20px;
     font-family: serif;

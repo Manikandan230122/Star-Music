@@ -1,5 +1,5 @@
 
-let userDetails = [];
+let userDetails =[];
 
 function SignUpValidation(){
 
@@ -69,7 +69,7 @@ function SignUpValidation(){
 console.log(Upper, Lower, Number, Symbol);
 
 
-if( Upper >=1 && Lower >= 1 && Number >=1  &&  Symbol >= 1 && ( NewPass.length>=8 && NewPass.length<=20) ){
+if( Upper >=1 && Lower >= 1 && Number >=1  &&  Symbol >= 1 && ( NewPass.length>=8 && NewPass.length<=20) && (NewPass==ConfirmPass)){
    PasswordFlag = true
 
 }
@@ -81,17 +81,21 @@ else{
 //====================================
 // validation for confirmpassword
 
-if(NewPass==ConfirmPass){
+// if{
 
-}
-else{
-   alert("Mismatch Password")
+// }
+// else{
+//    alert("Mismatch Password")
    
-}
+// }
 
    if(UsernameFlag==true && PhoneFlag==true && MailIdFlag==true && PasswordFlag==true){
       // using to store the user value in the userdetail array
-      userDetails.push(Username,Phone,EmailId,NewPass)
+      userDetails[0]= Username 
+      userDetails[1]=Phone
+      userDetails[2]=EmailId
+      userDetails[3]=NewPass
+
       console.log("user:"+userDetails);
       window.location.href="./login.html"
    }
@@ -107,7 +111,7 @@ function ForgotValidation(){
          if (userDetails[1] == mobile  || userDetails[2] == mobile ) {
             console.log(""+userDetail);
             if (userDetails[1] == mobile) {
-                  // let otps = generateOtp()
+                  // let otps = generateOtp()   
                   window.location.href="./otpverify.html"
             }
             else{
